@@ -1,61 +1,46 @@
+A simplified version of [react-weboack-babel](https://github.com/ReactJSResources/react-webpack-babel.git)
 
-<p align="center">
-    <h3 align="center">Simple React Webpack Babel Starter Kit<br></h3>
-</p>
-
-
-<p align="center">
-  Tired of complicated starters with more than 250MB of dependencies which are hard to understand and modify? This is for you!
-  This is a simple react application without redux, stylesheets or other set frameworks. It's only meant to get you started and the rest if up to you. Our goal for is to keep things simple and give you the freedom to select your own frameworks to add on top of this one.
-</p>
-
-### Demo
-https://murmuring-fjord-36537.herokuapp.com/
-
-### Prerequisites
-* You'll need to have [git](https://git-scm.com/) and [node](https://nodejs.org/en/) installed in your system.
-
-### To run
-* Fork and clone the project:
-
+Dependencies:
 ```
-git clone https://github.com/ReactJSResources/react-webpack-babel.git
+    "history": "^4.10.1",
+    "immer": "^8.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "reactn": "^2.2.7"
 ```
 
-* Then install the dependencies:
+Dev-dependencies:
 
 ```
-npm install
+    "@babel/core": "^7.12.3",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
+    "autoprefixer": "^10.0.2",
+    "babel-loader": "^8.2.0",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "copy-webpack-plugin": "^6.3.0",
+    "css-loader": "^5.0.1",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-standard": "^4.1.0",
+    "file-loader": "^5.1.0",
+    "html-webpack-plugin": "^4.5.0",
+    "node-sass": "^5.0.0",
+    "reactn-devtools": "^1.1.0",
+    "redux": "^4.0.5",
+    "sass-loader": "^10.0.5",
+    "serve": "^11.3.2",
+    "shx": "^0.3.3",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+
 ```
 
-* Run development server:
-
-```
-npm run dev
-```
-
-Open the web browser to `http://localhost:8080/`
-
-### To test
-To run unit tests:
-
-```
-npm run test
-```
-
-### To build the production package
-```
-npm run build
-```
-
-### Eslint
-There is a `.eslintrc.js` config for eslint ready with React plugin.
-
-To run linting, run:
-
-```
-npm run lint
-```
-
-### Contribute
-Please contribute to the project if you know how to make it better, including this README :)
