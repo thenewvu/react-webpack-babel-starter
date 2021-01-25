@@ -6,6 +6,7 @@ import Navigation from './components/Navigation'
 import Home from './routes/Home'
 import About from './routes/About'
 import Sample from './routes/Sample'
+import ReactNSample from './routes/ReactNSample'
 
 export const App = () => (
   <Fragment>
@@ -15,6 +16,7 @@ export const App = () => (
         <Route exact path="/" component={Home}/>
         <Route path="/about" component={About}/>
         <Route path="/sample" component={Sample}/>
+        <Route path="/reactn" component={ReactNSample}/>
       </Switch>
     </Router>
   </Fragment>
